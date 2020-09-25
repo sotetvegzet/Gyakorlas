@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Gyakorlás</title>
+    <link rel='stylesheet' href='stilus.css' />
+    <link rel='icon' href='./favicon.ico' type='image/x-icon' />
+</head>
+<body>
+    <!-- Kép elem és attribútumai -->
+    <!-- src: kép forrásának a megadása -->
+    <!-- alt: alternatív szöveg, ha nincs kép -->
+    <!-- title: tooltip, kis szöveg, ha az egeret ráhúzzuk a képre -->
+    <!-- width, height: fizikai méretek megadása -->
+    <!-- width='200', jelenti, hogy a kép 200px széles -->
+    <img src='./cica.jfif' alt='Repülő cica' title='Ez egy repülő cica' width='200' />
+    <!-- Link elem és attribútumai -->
+    <!-- href='#', saját oldalra hivatkozik -->
+    <!-- target: hol jelenjen meg a hivatkozott oldal -->
+    <!-- target='_blank' új lapon, fülön -->
+    <!-- target='_top' beágyazott oldalról a tartalmazó oldalra -->
+    <!-- target='_self' saját oldalon, ez az alapértelmezett -->
+    <a href='https://icanhas.cheezburger.com/lolcats/tag/bizarre' target='_blank'>Ez itt egy hivatkozás, link.</a>
+    <!-- Kétfajta vers -->
+    <p>
+        Edvárd király, angol király
+
+        léptet fakó lován.
+    </p>
+    <!-- pre: előformatált szöveg, megőrzi a szóközöket és sortöréseket. -->
+    <pre>
+        Edvárd király, angol király
+
+        léptet fakó lován.
+    </pre>
+    <a href='http://www.nemzetisport.hu' target='_blank'>Nemzeti sport</a>
+    <!-- táblázatok: table,tr - sor,th - fejlécelem, td -cellaelem  -->
+    <table>
+        <caption>Világirodalom remekművei</caption>
+        <tr>
+            <th>Szerző</th>
+            <th colspan='2'>Cím</th>
+        </tr>
+        <tr>
+            <td rowspan='2'>Jules Verne</td>
+            <td>Némó kapitány</td>
+            <td>Némó kapitány</td>
+        </tr>
+        <tr>
+            <td>Hatteras kapitány</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mikszáth Kálmán</td>
+            <td>Beszélő köntös</td>
+            <td>Beszélő köntös</td>
+        </tr>
+        <tr>
+            <td>William Shakespeare</td>
+            <td>Romeó és Júlia</td>
+            <td>Romeó és Júlia</td>
+        </tr>
+    </table>
+    <!-- Rendezetlen (pontozott) lista -->
+    <!-- ul - unordered list -->
+    <!-- li - list item, lista elem -->
+    <ul>
+        <li>Első</li>
+        <li>Második</li>
+        <li>Harmadik</li>
+        <li>Negyedik</li>
+    </ul>
+    <!-- Rendezett (számozott) lista -->
+    <!-- ol - ordered list -->
+    <!-- type - sorszámozás típusa: szám, betű, római szám -->
+    <!-- start - csak szám esetén, honnan kezdődjön -->
+    <ol type='1' start='10'>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ol>
+    <ul id='lila'>
+        <li><a href='https://www.w3schools.com/html/default.asp'>HTML</a></li>
+        <li><a href='https://www.w3schools.com/css/default.asp'>CSS</a></li>
+        <li><a href='https://www.w3schools.com/js/default.asp'>JavaScript</a></li>
+        <li><a href='https://www.w3schools.com/php/default.asp'>PHP</a></li>
+    </ul>
+</body>
+</html>
